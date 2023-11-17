@@ -6,37 +6,37 @@ Welcome to the News-Topic-Classification repository, a collection of language-sp
 
 ## 🌍 Language Models
 
-Kimbundu:
-Model: Hugging Face - Kimbundu News Category Classification
-Umbundu:
-Model: Hugging Face - Umbundu News Category Classification
-Kikongo:
-Model: Hugging Face - Kikongo News Category Classification
-Chokwe:
-Model: Hugging Face - Chokwe News Category Classification
-Lua:
-Model: Hugging Face - Lua News Category Classification
+- **Kimbundu**:
+  - **Model**: [Hugging Face](https://huggingface.co/cx-olquinjica/kimbundu-news-category-classification)
+- **Umbundu**:
+  - **Model**: [Hugging Face](https://huggingface.co/cx-olquinjica/umbundu-news-category-classification) 
+- **Kikongo**:
+  - **Model** : [Hugging Face](https://huggingface.co/cx-olquinjica/kikongo-news-category-classification)
+- **Chokwe**:
+  - **Model**: [Hugging Face](https://huggingface.co/cx-olquinjica/chokwe-news-category-classification)
+- **Lua**:
+  - **Model**: [Hugging Face](https://huggingface.co/cx-olquinjica/lua-news-category-classification)
 ## 🚀 Training Details
 
-Base Model: AngoBERTa
-Dataset: SIB-200 Dataset
+- **Base Model**: [AngoBERTa](https://huggingface.co/cx-olquinjica/AngoBERTa)
+- **Dataset**: [SIB-200 Dataset](https://github.com/dadelani/sib-200)
 ## 📊 Evaluation Metrics (Sample)
 
-Epochs: 3.0
-Training Loss: [Provide training loss]
-Evaluation Loss: [Provide evaluation loss]
-Accuracy: [Provide accuracy]
-Precision: [Provide precision]
-Recall: [Provide recall]
-F1 Score: [Provide F1 score]
-💻 How to Use
+- Epochs: 3.0
+- Training Loss: [Provide training loss]
+- Evaluation Loss: [Provide evaluation loss]
+- Accuracy: [Provide accuracy]
+- Precision: [Provide precision]
+- Recall: [Provide recall]
+- F1 Score: [Provide F1 score]
+  ## 💻 How to Use
 
 ## Install Transformers Library:
 ```bash
 pip install transformers
 ```
 ### Load Language-Specific Model:
-``python
+```python
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 model_name = "cx-olquinjica/kimbundu-news-category-classification"  # Replace with the desired language model
 tokenizer = AutoTokenizer.from_pretrained(model_name)
